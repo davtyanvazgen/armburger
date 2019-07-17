@@ -10,7 +10,6 @@ class BurgerIngredient extends Component {
       case "bread-bottom":
         ingredient = <div className="BreadBottom" />;
         break;
-
       case "bread-top":
         ingredient = (
           <div className="BreadTop">
@@ -19,23 +18,18 @@ class BurgerIngredient extends Component {
           </div>
         );
         break;
-
       case "meat":
         ingredient = <div className="Meat" />;
         break;
-
       case "cheese":
         ingredient = <div className="Cheese" />;
         break;
-
       case "bacon":
         ingredient = <div className="Bacon" />;
         break;
-
       case "salad":
         ingredient = <div className="Salad" />;
         break;
-
       default:
         ingredient = null;
     }
